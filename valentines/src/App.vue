@@ -10,6 +10,6 @@
 
 <style scoped>
 :global(body) {
-  background-color: lab(0 0 0);
+  background-color: #000000;
 }
 </style>
