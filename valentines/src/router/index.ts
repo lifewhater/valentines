@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from '../components/Home.vue'
-import NO from "../components/NO.vue";
+import INTRO from "../components/INTRO.vue";
 import YES from "../components/YES.vue";
 
 const routes = [
-    { path: '/', component: Home },
-    { path: '/no', component: NO},
+    { path: '/home', component: Home },
+    { path: '/', component: INTRO},
     { path: '/yes', component: YES},
 ]
 
