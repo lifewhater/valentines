@@ -1,10 +1,24 @@
+<!-- App.vue -->
 <template>
-<router-view/>
+<INTRO v-if="loading" @click = "splashClick" />
+
+<div v-else>
+  <router-view/>
+</div>
 
 
 </template>
 
 <script setup lang="ts">
+import { ref } from "vue"
+import INTRO from "./components/INTRO.vue";
+
+
+const loading = ref(true)
+
+const splashClick = () =>{
+  loading.value = false
+}
 
 </script>
 

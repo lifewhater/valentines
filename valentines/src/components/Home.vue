@@ -25,10 +25,10 @@
           YES
       </router-link>
 
-      <div class=" flex justify-center
+      <div @click="onClick" class=" flex justify-center noButton
        bg-gray-600 hover:bg-purple-400 border border-gray-500 
         py-2 px-5 rounded-xl w-full ">
-        <button @click="onClick" class="noButton">No</button>
+        <button class="">No</button>
     </div>
     </div>
      </div>
