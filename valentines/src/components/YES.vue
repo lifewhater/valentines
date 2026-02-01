@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center justify-center h-screen p-5">
+    <div class="flex items-center justify-center h-screen p-5 bg-[#11001c]">
         <img :src="selectedGif" alt="Random GIF" 
         class=" border border-purple-500 rounded-2xl shadow-2xl shadow-purple-600/50">
     </div>
