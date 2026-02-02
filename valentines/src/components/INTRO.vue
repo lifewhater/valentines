@@ -1,11 +1,11 @@
 <!-- INTRO.vue -->
 <template>
-    <div class="flex flex-col gap-5 items-center justify-center h-screen w-screen bg-[#11001C]">
-        <div class="text-[#d3abff] text-4xl text-pretty px-2">
+    <div class="flex flex-col gap-8 items-center justify-center h-screen w-screen bg-[#11001C]">
+        <div class="text-[#d3abff] text-4xl text-pretty px-2 text-center">
             {{ message[currentIndex] }}
         </div>
         <button v-if="currentIndex < message.length -1" @click="nextLine" 
-        class="text-white text-2xl transition bg-[#3f0064] 
+        class=" relative text-white text-2xl transition bg-[#3f0064]
         py-2 px-4 rounded-xl border border-purple-300/75 shadow-lg shadow-purple-500/50">
             Next
         </button>
@@ -13,6 +13,7 @@
             Continue
         </button>
     </div>
+    
 </template>
 
 <script setup lang="ts">
