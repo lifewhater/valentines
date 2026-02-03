@@ -9,7 +9,8 @@
         py-2 px-4 rounded-xl border border-purple-300/75 shadow-lg shadow-purple-500/50">
             Next
         </button>
-        <button v-else @click="nextPage" class="text-white transition">
+        <button v-else @click="nextPage" class=" relative text-white text-2xl transition bg-[#3f0064]
+        py-2 px-4 rounded-xl border border-purple-300/75 shadow-lg shadow-purple-500/50">
             Continue
         </button>
     </div>
@@ -19,11 +20,14 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import SplitText from 'gsap/src/SplitText'
+import gsap from 'gsap';
+
+gsap.registerPlugin(SplitText);
 
 const message = [
     "Hi Alina 💜",
     "I made a little something for you",
-    "Took me a long time to make this.",
     "I love you <3"
 ]
 
@@ -40,6 +44,7 @@ if(currentIndex.value < message.length - 1){
     }
 
 }
+
 
 </script>
 
