@@ -14,7 +14,7 @@ import { ref } from "vue"
 import INTRO from "./components/INTRO.vue";
 
 
-const loading = ref(false)
+const loading = ref(true)
 
 const splashClick = () =>{
   loading.value = false

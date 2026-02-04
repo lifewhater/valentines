@@ -12,8 +12,8 @@
     <div class="flex bg-[#3A025B] rounded-xl h-20 
       justify-center items-center shadow-lg shadow-purple-400/50
        border border-purple-500">
-      <a class="text-white text-xl">
-        Placeholder
+      <a class="text-white text-xl uppercase">
+        Will you be my valentines?
       </a>
     </div>
 
