@@ -1,6 +1,0 @@
-{
-  "buildCommand": "cd valentines && npm install && npm run build",
-  "outputDirectory": "valentines/dist",
-  "installCommand": "cd valentines && npm install",
-  "framework": "vite"
-}
