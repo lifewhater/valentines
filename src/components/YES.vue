@@ -1,11 +1,15 @@
 <template>
-    <div class="flex flex-col gap-5 items-center justify-center h-screen p-5 bg-[#11001c]">
-        <img :src="selectedGif" alt="Random GIF" 
-        class=" border border-purple-500 rounded-2xl shadow-2xl shadow-purple-600/50">
+    <div class="flex flex-col gap-10 items-center justify-center h-screen p-5 bg-[#11001c]">
+        <img :src="selectedGif" alt="Random GIF"
+            class=" border border-purple-500 rounded-2xl shadow-2xl shadow-purple-600/50">
+            
         <router-link to="/gallery">
-            <div  class="relative text-white text-2xl transition bg-[#3f0064]
-        py-2 px-4 rounded-xl border border-purple-300/75 ">
-            There's more 😏</div>
+            <div class="relative text-white text-2xl transition bg-[#3f0064]
+                py-2 px-4 rounded-xl border border-purple-300/75 hover:bg-[rgb(54,10,87)] 
+                hover:shadow-lg hover:shadow-[#7f43ba] duration-200 ease-in-out 
+                hover:-translate-y-1 hover:scale-110">
+                There's more 😏
+            </div>
         </router-link>
     </div>
 </template>
