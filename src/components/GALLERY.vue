@@ -1,7 +1,9 @@
 <template>
-  <main class="min-h-screen w-full bg-[#0f0019] text-[#e9d7ff] px-3 py-4">
-    <header class="mx-auto mb-3 max-w-5xl text-center">
-      <h1 class="text-lg font-semibold tracking-wide sm:text-xl">Memories</h1>
+  <main class="min-h-screen w-full bg-[#0f0019] text-[#e9d7ff] px-3 py-10">
+    <header class="mx-auto mb-10 max-w-5xl text-center">
+      <div class="text-3xl font-semibold tracking-wide">
+        Memories <3
+      </div>
     </header>
 
     <!-- Masonry (CSS Columns) -->
@@ -37,7 +39,7 @@
 </template>
 
 <script setup lang="ts">
-import { onBeforeUnmount, onMounted, ref } from "vue"
+import { onBeforeUnmount, onMounted, ref, nextTick } from "vue"
 
 type ImageItem = {
   id: string
@@ -118,6 +120,7 @@ async function loadMore() {
 let observer: IntersectionObserver | null = null
 
 onMounted(async () => {
+  await nextTick()
   // initial fill
   await loadMore()
   await loadMore() // helps avoid "empty gap" on fast scroll / large screens

@@ -7,7 +7,7 @@
       <div ref="boxAnimation" class="flex bg-[#3A025B] rounded-xl h-20 
       justify-center items-center shadow-lg shadow-purple-400/50 opacity-0
        border border-purple-500">
-        <a class="text-white text-xl uppercase text-center">
+        <a class="text-white text-3xl uppercase text-center">
           Will you be my valentines?
         </a>
       </div>

@@ -2,7 +2,9 @@
 <template>
   <div class="flex flex-col gap-8 items-center justify-center h-screen w-screen bg-[#11001C]">
 
-    <div :key="currentIndex" ref="split_text" class="h-60 w-screen text-[#d3abff] text-[50px] text-pretty px-5 text-center leading-12">
+    <div :key="currentIndex" ref="split_text" class="h-60 w-screen 
+    text-[#d3abff] text-[50px] text-pretty
+     px-5 text-center leading-12">
       {{ message[currentIndex] }}
     </div>
 
