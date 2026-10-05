@@ -31,7 +31,7 @@ import SplitText from 'gsap/SplitText'
 gsap.registerPlugin(SplitText)
 
 const message = [
-  "Hi Alina 💜",
+  "HI BABYLICIOUS 💜",
   "Againnnn <3",
   "OH",
   "MY",
