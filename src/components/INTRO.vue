@@ -32,13 +32,18 @@ gsap.registerPlugin(SplitText)
 
 const message = [
   "Hi Alina 💜",
-  "I made a little something for you",
-  "Thank you for supporting me",
-  "Through my ups and downs",
-  "Through the thick and thin",
-  "Thank you for being my favorite person",
-  "My safe space",
-  "The reason I smile at my phone like a fool",
+  "Againnnn <3",
+  "OH",
+  "MY",
+  "GOD",
+  "...",
+  "I CAN'T BELIEVE IT'S BEEN 2 YEARS",
+  "HAPPYYY TWOOO YEARSS MY LOVE",
+  "THANK YOU FOR BEING MY SAFE SPACE",
+  "Two years and still the most beautiful woman I know",
+  "Head over heels for you",
+  "type shiii",
+  "Thank you for your kindness and love you bring",
   "I love you <3"
 ]
 

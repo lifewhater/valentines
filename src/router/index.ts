@@ -3,12 +3,14 @@ import Home from '../components/HOME.vue'
 import YES from "../components/YES.vue";
 import INTRO from "../components/INTRO.vue";
 import GALLERY from "../components/GALLERY.vue";
+import FLUFFY from "../components/FLUFFY.vue";
 
 const routes = [
     { path: '/home', component: Home },
     { path: '/', component: INTRO },
     { path: '/yes', component: YES },
     { path: '/gallery', component: GALLERY },
+    { path: '/fluffy', component: FLUFFY },
 
 ]
 
