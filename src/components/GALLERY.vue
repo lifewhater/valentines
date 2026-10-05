@@ -8,7 +8,9 @@
         <RouterLink to="/fluffy" class="relative text-white text-2xl transition bg-[#3f0064]
                 py-1 px-2 rounded-xl border border-purple-300/75 hover:bg-[rgb(54,10,87)] 
           hover:shadow-lg hover:shadow-[#7f43ba] duration-200 ease-in-out 
-          hover:-translate-y-1 hover:scale-110">Some More</RouterLink>
+          hover:-translate-y-1 hover:scale-110"> 
+          <span class="transform-transition delay-200 hover:scale-75"> → </span>
+          </RouterLink>
       </div>
     </header>
 

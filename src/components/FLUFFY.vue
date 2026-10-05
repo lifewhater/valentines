@@ -14,7 +14,7 @@
     </section>
 
     <section v-if="currentIndex === message.length - 1" class="fluffy-gallery" aria-label="Fluffy memories">
-      <p class="gallery-label">Fluffy memories</p>
+      <p class="gallery-label"></p>
       <div class="bento-grid">
         <article
           v-for="(image, index) in images"

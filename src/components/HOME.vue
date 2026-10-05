@@ -2,13 +2,13 @@
   <div class="relative w-full min-h-screen overflow-hidden">
     <video src="/bg_video.mp4" autoplay loop muted playsinline
       class="fixed top-0 left-0 w-full h-full object-cover z-0" />
-    <div class="relative z-10 flex-row mt-50 mx-5 space-y-10 p-35">
+    <div class="relative z-10 flex flex-col mt-50 mx-5 space-y-10 justify-center">
 
-      <div ref="boxAnimation" class="flex bg-[#3A025B] rounded-xl h-20 
+      <div ref="boxAnimation" class="flex bg-[#3A025B] rounded-xl h-auto w-full
       justify-center items-center shadow-lg shadow-purple-400/50 opacity-0
        border border-purple-500 
        hover:shadow-purple-400">
-        <a class="text-white text-3xl uppercase text-center">
+        <a class="text-white text-3xl uppercase text-center py-5">
           HAPPY TWO YEARS ANNIVERSARY MY BABYLICIOUS <3
         </a>
     </div>
